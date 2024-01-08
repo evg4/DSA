@@ -25,13 +25,19 @@ const isPalindrome = function (x) {
   }
 };
 
-console.log(isPalindrome(42424)); //true
+/*console.log(isPalindrome(42424)); //true
 console.log(isPalindrome(-121)); //false
 console.log(isPalindrome(12154)); //false
 console.log(isPalindrome(10)); //false
 console.log(isPalindrome(0)); //true
+*/
 
-/* follow up: can you solve it without converting the integer to a string?
-Convert number to an array then use splice/slice? 
-But that would take longer than current method
+/* follow up: could you solve it without converting the integer to a string?
+
+IDEAS:
+1) Convert number to an array then use splice/slice? 
+But how to convert to array without converting to a string?
+
+2) reverse the number. If num === reversedNum, then num is a palindrome.
+But how to reverse the number without converting to a string?
 */
